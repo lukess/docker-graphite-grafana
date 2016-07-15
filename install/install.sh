@@ -11,7 +11,7 @@ dpkg -i dumb-init_1.0.1_amd64.deb && rm dumb-init_1.0.1_amd64.deb
 
 # Grafana
 cd /opt
-GRAFANA=grafana-3.0.4-1464167696
+GRAFANA=grafana-3.1.0-1468321182
 wget --no-check-certificate https://grafanarel.s3.amazonaws.com/builds/${GRAFANA}.linux-x64.tar.gz
 tar zxvf ${GRAFANA}.linux-x64.tar.gz
 rm ${GRAFANA}.linux-x64.tar.gz
